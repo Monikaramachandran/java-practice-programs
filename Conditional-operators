@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class Check{
+    
+    static Scanner sc = new Scanner(System.in);
+    public static void main(String[]args){
+        
+        System.out.println("enter value");
+        int value = sc.nextInt();
+        
+        String result = (value>0) ? "Positive" : "Negative";
+        System.out.println(result);
+        
+    }
+}
