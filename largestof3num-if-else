@@ -1,0 +1,25 @@
+//largest of 3 numbers 
+import java.util.Scanner;
+class numbers{
+    static Scanner sc = new Scanner(System.in);
+    public static void main(String[]args){
+        
+        System.out.println("enter num");
+        int a = sc.nextInt();
+        System.out.println("enter num");
+        int b = sc.nextInt();
+        System.out.println("enter num");
+        int c = sc.nextInt();
+        
+        if(a>b && a>c){
+            System.out.println("a is greater");
+        }
+        else if(b>c && b>a){
+            System.out.println("b is greater");
+        }
+        else {
+            System.out.println("c is greater");
+        }
+        
+    }
+}
