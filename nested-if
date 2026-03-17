@@ -1,0 +1,28 @@
+//nested if (positive or negative) and (even or odd)
+
+class numbers{
+    public static void main(String[]args){
+
+int num = 12;
+        if(num>=0){
+            
+        if(num%2==0){
+            System.out.println("Positive Even");
+        }
+        else{
+            System.out.println("Positive Odd");
+        }
+        }
+        else{
+                    if(num%2==0){
+                System.out.println("Negative Even");
+            }
+        
+            else{
+                System.out.println("Negative Odd");
+            }
+        }
+        
+        
+    }
+}
